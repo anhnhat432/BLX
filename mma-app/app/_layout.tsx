@@ -14,4 +14,7 @@ export default function RootLayout() {
       <Stack.Screen name="plans/edit/[id]" options={{ title: 'Edit Plan' }} />
     </Stack>
   );
+    />
+  );
+  return <Stack screenOptions={{ headerShown: false }} />;
 }
