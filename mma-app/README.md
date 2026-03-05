@@ -10,6 +10,7 @@ Expo + TypeScript React Native project for an MMA course assignment.
 - Simple, student-friendly UI using core React Native components
 
 See detailed scope in [`PROJECT_SPEC.md`](./PROJECT_SPEC.md).
+React Native app scaffolded for Expo with TypeScript, Expo Router navigation, ESLint, and Prettier.
 
 ## Run locally (Windows)
 
