@@ -8,6 +8,12 @@ export default function RootLayout() {
         headerTintColor: '#f8fafc',
         contentStyle: { backgroundColor: '#020617' },
       }}
+    >
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      <Stack.Screen name="plans/[id]" options={{ title: 'Plan Details' }} />
+      <Stack.Screen name="plans/edit/[id]" options={{ title: 'Edit Plan' }} />
+    </Stack>
+  );
     />
   );
   return <Stack screenOptions={{ headerShown: false }} />;
