@@ -1,5 +1,15 @@
 # mma-app
 
+Expo + TypeScript React Native project for an MMA course assignment.
+
+## Project features
+
+- 5 screens via Expo Router (`Home`, `Fighters List`, `Add Fighter`, `Fighter Details`, `Edit Fighter`)
+- Full CRUD example for fighter profiles
+- Local persistence with AsyncStorage
+- Simple, student-friendly UI using core React Native components
+
+See detailed scope in [`PROJECT_SPEC.md`](./PROJECT_SPEC.md).
 React Native app scaffolded for Expo with TypeScript, Expo Router navigation, ESLint, and Prettier.
 
 ## Run locally (Windows)
